@@ -7,7 +7,12 @@ class LogoWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ZStack([
-      VxBox().orange500.alignTopCenter.make().wFull(context).h(160),
+      VxBox()
+          .color(Color(0xFFF0592A))
+          .alignTopCenter
+          .make()
+          .wFull(context)
+          .h(160),
       ClipPath(
         clipper: NotchClipper(),
         child: VxBox(

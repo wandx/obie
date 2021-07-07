@@ -84,7 +84,7 @@ class _FormCardWidgetState extends State<FormCardWidget> {
           .p12
           .roundedFull
           .border(
-            color: Vx.orange500,
+            color: Color(0xFFF0592A),
             width: 10,
           )
           .make()

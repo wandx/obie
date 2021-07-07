@@ -9,7 +9,7 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Vx.orange500,
+      backgroundColor: Color(0xFFF0592A),
       body: VStack([
         const LogoWidget(),
         const FormCardWidget(
